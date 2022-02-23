@@ -1,0 +1,25 @@
+// ------Переменные
+@import './utils/variables';
+
+// ------Стили сброса
+@import './base/reset';
+
+// ------Общие стили
+@import './base/common';
+
+// ------Паттерн скрытия
+@import './utils/visually-hidden';
+
+// ------Переиспользуемые стили
+@import './components/container';
+@import './components/modal';
+
+// ------Структура
+@import './layout/header';
+@import './layout/hero';
+@import './layout/features';
+@import './layout/developments';
+@import './layout/team';
+@import './layout/regular-clients';
+@import './layout/portfolio';
+@import './layout/footer';
