@@ -346,6 +346,8 @@ body {
 }
 
 .feedback__link {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -356,11 +358,6 @@ body {
 
 .feedback__link:hover, .feedback__link:focus {
   color: var(--accent-coolor);
-}
-
-.feedback__link {
-  display: flex;
-  align-items: center;
 }
 
 .feedback__icon {
