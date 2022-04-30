@@ -84,8 +84,6 @@ body {
 
 .modal {
   position: absolute;
-  min-width: 530px;
-  min-height: 580px;
   top: 50%;
   left: 50%;
   padding: 40px;
@@ -200,8 +198,8 @@ body {
 
 .modal-checkbox__label {
   display: flex;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--primary-color-text);
   margin-bottom: 30px;
@@ -277,6 +275,34 @@ body {
 
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.4) rotate(90deg);
+}
+
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .modal {
+    width: 450px;
+    height: 610px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .modal {
+    width: calc(100% - 30px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 530px;
+    height: 580px;
+  }
+  .modal-checkbox__label {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  .modal__title {
+    font-size: 20px;
+    line-height: 1.5;
+  }
 }
 
 .header {
