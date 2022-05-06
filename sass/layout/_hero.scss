@@ -8,7 +8,8 @@
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../../images-overlay/overlay-desktop.jpg);
+        url('../../images-hw4/overlay.jpg');
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -50,13 +51,11 @@
     }
 }
 
-
-
 // 0 - 767px
 @media screen and (max-width: 767px) {
     .hero {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(../../images-overlay/overlay-mobile.jpg);
+            url('../../images-overlay/overlay-mobile.jpg');
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -64,7 +63,7 @@
     (min-resolution: 2dppx) {
         .hero {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                url(../../images-overlay/overlay-mobile@2x.jpg);
+                url('../../images-overlay/overlay-mobile@2x.jpg');
         }
     }
 }
@@ -73,7 +72,7 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .hero {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(../../images-overlay/overlay-tablet.jpg);
+            url('../../images-overlay/overlay-tablet.jpg');
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -81,7 +80,7 @@
     (min-resolution: 2dppx) {
         .hero {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                url(../../images-overlay/overlay-tablet@2x.jpg);
+                url('../../images-overlay/overlay-tablet@2x.jpg');
         }
     }
 }
@@ -93,7 +92,7 @@
         padding-top: 200px;
         padding-bottom: 200px;
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(../../images-overlay/overlay-desktop.jpg);
+            url('../../images-overlay/overlay-desktop.jpg');
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -101,7 +100,7 @@
     (min-resolution: 2dppx) {
         .hero {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                url(../../images-overlay/overlay-desktop@2x.jpg);
+                url('../../images-overlay/overlay-desktop@2x.jpg');
         }
     }
 
