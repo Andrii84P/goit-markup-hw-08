@@ -1,6 +1,6 @@
 .buttons-list {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 40px;
 }
@@ -175,6 +175,10 @@
   .projects-list__item:not(:last-child) {
     margin-bottom: 30px;
   }
+  
+  .buttons-list{
+    justify-content: start;  
+  }
 }
 
 // 768px - 1199px
@@ -184,14 +188,26 @@
     margin-left: -30px;
     margin-top: -30px;
     flex-wrap: wrap;
-    text-align: left;
+  }
+  
+  .projects-list__link {
+    display: flex;
+    height: 100%;
   }
   
   .projects-list__item {
-    height: 100%;
     width: calc(100% / 2 - 30px);
     margin-left: 30px;
     margin-top: 30px;
+  }
+
+  .projects-list-card {
+      display: flex;
+    flex-direction: column;
+  }
+
+  .projects-list__content {
+  flex-grow: 1;
   }
 
 }
