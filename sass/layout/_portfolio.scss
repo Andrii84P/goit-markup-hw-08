@@ -38,10 +38,9 @@
   
 }
 
-
-// .projects-list__item {
-//   background: #ffffff;
-// }
+.projects-list__item {
+  background: #ffffff;
+}
 
 .projects-list__link {
   display: block;
@@ -159,6 +158,10 @@
   color: var(--primary-color-text);
 }
 
+.mobile-menu {
+ z-index: 1;
+}
+
 // 0-1199px
 @media screen and (max-width: 1199px) {
   .projects {
@@ -167,8 +170,8 @@
   }
 }
 
-// 0-480px
-@media screen and (max-width: 480px) {
+// 0-767px
+@media screen and (max-width: 767px) {
   .projects-list__item:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -185,15 +188,13 @@
   }
   
   .projects-list__item {
-    background: #ffffff;
+    height: 100%;
     width: calc(100% / 2 - 30px);
     margin-left: 30px;
     margin-top: 30px;
-    margin: 0 auto;
-    
-    }
-
   }
+
+}
 
 // 1200px +
 @media screen and (min-width: 1200px) {
