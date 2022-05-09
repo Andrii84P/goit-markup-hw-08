@@ -66,6 +66,14 @@
                 url('../images-overlay/overlay-mobile@2x.jpg');
         }
     }
+
+}
+
+// 0 - 479px
+@media screen and (max-width: 479px) {
+    .hero__title {
+    font-size: 18px;
+    }
 }
 
 // 768px - 1199px
@@ -91,6 +99,7 @@
         height: 600px;
         padding-top: 200px;
         padding-bottom: 200px;
+        max-width: 1600px;
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
             url('../images-overlay/overlay-desktop.jpg');
     }

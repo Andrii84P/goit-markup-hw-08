@@ -29,14 +29,13 @@
             </nav>
             <ul class="feedback">
                 <li class="feedback__item">
-                    <a class="feedback__link" href="mailto:">
+                    <a class="feedback__link feedback__link-mail" href="mailto:">
                         <svg class="feedback__icon-mailto" height="12" width="16">
-                            <use href="./images-hw4/icons.svg#icon-envelope">
-                            </use>
+                            <use href="./images-hw4/icons.svg#icon-envelope"></use>
                         </svg>info@devstudio.com</a>
                 </li>
                 <li class="feedback__item">
-                    <a class="feedback__link" href="tel:+380961111111">
+                    <a class="feedback__link feedback__link-tel" href="tel:+380961111111">
                         <svg class="feedback__icon-tel" width="10" height="16">
                             <use href="./images-hw4/icons.svg#icon-smartphone"></use>
                         </svg>+38 096 111 11 11</a>
@@ -60,9 +59,9 @@
                 </button>
                 <nav class="mobile-navigation">
                     <ul class="mobile-nav-list">
-                        <li class="mobile-nav-list__item"><a class="mobile-nav-list__link mobile-nav-list__link--activ"
-                                href="./index.html">Студия</a></li>
                         <li class="mobile-nav-list__item"><a class="mobile-nav-list__link"
+                                href="./index.html">Студия</a></li>
+                        <li class="mobile-nav-list__item"><a class="mobile-nav-list__link mobile-nav-list__link--activ"
                                 href="./portfolio.html">Портфолио</a></li>
                         <li class="mobile-nav-list__item"><a class="mobile-nav-list__link" href="">Контакты</a></li>
                     </ul>
@@ -408,8 +407,8 @@
     </main>
     <!-- Футер -->
 <footer class="footer">
-    <div class="container">
-        <div class="footer__content">
+    <div class="container footer__content">
+        <div class="footer-content-box">
             <div class="footer-adress">
                 <a class="logo footer__logo" href="">Web<span class="logo-white">Studio</span></a>
                 <address class="footer-contacts">
@@ -434,7 +433,7 @@
             <!-- Футер / Присоединяйтесь! -->
 
             <div class="join footer__join">
-                <h3 class="join__title">присоединяйтесь</h3>
+                <p class="join__title">присоединяйтесь</p>
                 <ul class="join-socials-list">
                     <li class="join-socials-list__item">
                         <a class="join-socials-list__link" href="https://https://www.instagram.com/">
@@ -466,7 +465,7 @@
                     </li>
                 </ul>
             </div>
-
+        </div>
             <!-- Футер / Форма -->
 
             <div class="subscription-form footer__subscription-form">
@@ -482,7 +481,6 @@
                     </button>
                 </form>
             </div>
-        </div>
     </div>
 </footer>
     <script src="./js/mobile-menu.js"></script>
