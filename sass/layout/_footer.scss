@@ -169,7 +169,7 @@
 
 // 0-1999px
 @media screen and (max-width: 1199px) {
-  .footer-adress {
+  .footer-content-box {
     margin-bottom: 60px;
   }
 
@@ -228,12 +228,12 @@
     align-items: baseline;
   }
   
-  .subscription {
-    display: flex;
+  .footer-content-box {
+    margin-right: auto;
   }
 
-  .subscription-form {
-    margin-left: auto;
+  .subscription {
+    display: flex;
   }
 
   .subscription__input {

@@ -63,7 +63,7 @@
     background-color: var(--accent-coolor);
     border-radius: 2px;
     left: 0;
-    bottom: -33px;
+    bottom: 0;
 }
 
 
@@ -149,7 +149,7 @@
         margin-bottom: 32px;
     }
 
-      .mobile-feedback__link-mail {
+    .mobile-feedback__link-mail {
         font-weight: 500;
         font-size: 24px;
         line-height: 1.16;
@@ -270,7 +270,7 @@
 
 // 768px +
 @media screen and (min-width: 768px) {
-        .mobile-menu-button {
+    .mobile-menu-button {
         display: none;
     }
 
@@ -283,6 +283,7 @@
     } 
 
     .nav-list__link {
+        display: block;
         padding-top: 32px;
         padding-bottom: 32px;
         font-weight: 500;

@@ -389,7 +389,7 @@ body {
   background-color: var(--accent-coolor);
   border-radius: 2px;
   left: 0;
-  bottom: -33px;
+  bottom: 0;
 }
 
 @media screen and (max-width: 1199.98px) {
@@ -568,6 +568,7 @@ body {
     display: flex;
   }
   .nav-list__link {
+    display: block;
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
@@ -788,6 +789,9 @@ body {
   }
   .features-list__item + .features-list__item {
     margin-left: 30px;
+  }
+  .features-list__title {
+    text-align: left;
   }
 }
 
@@ -1404,7 +1408,7 @@ body {
 }
 
 @media screen and (max-width: 1199px) {
-  .footer-adress {
+  .footer-content-box {
     margin-bottom: 60px;
   }
   .footer-content-box {
@@ -1449,11 +1453,11 @@ body {
     display: flex;
     align-items: baseline;
   }
+  .footer-content-box {
+    margin-right: auto;
+  }
   .subscription {
     display: flex;
-  }
-  .subscription-form {
-    margin-left: auto;
   }
   .subscription__input {
     width: 358px;
